@@ -94,6 +94,18 @@ p{margin:10px 0}
 .faq{border-top:1px solid var(--line);padding-top:4px}
 footer{padding:34px 0 45px;color:var(--muted);font-size:14px}
 .small{font-size:14px;color:var(--muted)}
+.footer{background:#102936;color:#eaf3f6;padding:48px 0 20px;margin-top:0}
+.footer-grid{display:grid;grid-template-columns:1.2fr 1fr 1fr 1fr;gap:28px}
+.footer h3{color:#fff;font-size:19px;margin:0 0 14px;padding-bottom:10px;border-bottom:2px solid #c79a32;display:inline-block}
+.footer p{color:#c9d8dd;margin:7px 0}
+.footer a{color:#eaf3f6}
+.footer a:hover{color:#fff;text-decoration:underline}
+.footer-links{list-style:none;margin:0;padding:0}
+.footer-links li{margin:9px 0}
+.footer-contact{font-size:17px}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.15);margin-top:30px;padding-top:17px;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;color:#aebfc5;font-size:13px}
+@media(max-width:850px){.footer-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.footer-grid{grid-template-columns:1fr}.footer{padding-top:35px}}
 @media(max-width:850px){
  .hero-grid{grid-template-columns:1fr}.hero-copy{order:1}.hero-visual{order:2}.hero-img{height:280px}
  .grid,.sources{grid-template-columns:1fr 1fr}.cluster{grid-template-columns:repeat(2,1fr)}
@@ -291,11 +303,56 @@ footer{padding:34px 0 45px;color:var(--muted);font-size:14px}
 </section>
 </main>
 
-<footer>
+<section id="about" style="padding:42px 0">
 <div class="wrap">
-<p><strong>تنبيه طبي:</strong> المعلومات المنشورة تثقيفية عامة ولا تغني عن تقييم الطبيب أو الصيدلي.</p>
-<p>مصدر صحي رسمي مرتبط بالمحتوى: <a href="https://www.moh.gov.sa/" target="_blank" rel="noopener">وزارة الصحة السعودية</a>.</p>
-<p>آخر تحديث: أكتوبر 2026.</p>
+<h2>من نحن</h2>
+<p>دليل المعلومات الطبية منصة عربية تهدف إلى تقديم معلومات منظمة وواضحة حول صحة المرأة والأدوية والمصطلحات الطبية الشائعة، مع توجيه الزائر إلى المصادر الصحية الرسمية عند الحاجة.</p>
+</div>
+</section>
+<section id="privacy" style="padding:42px 0">
+<div class="wrap">
+<h2>سياسة الخصوصية</h2>
+<p>نحترم خصوصية الزوار. لا نطلب من الزائر إدخال بيانات شخصية حساسة داخل الصفحة. عند اختيار التواصل عبر واتساب، ينتقل المستخدم إلى خدمة واتساب وتخضع المحادثة لسياسة الخصوصية وشروط الخدمة الخاصة بواتساب.</p>
+<p>لا ترسل عبر أي قناة عامة معلومات شديدة الحساسية أو صور وثائق شخصية إلا إذا كان ذلك ضرورياً ولجهة صحية موثوقة.</p>
+</div>
+</section>
+<footer class="footer">
+<div class="wrap">
+<div class="footer-grid">
+<div>
+<h3>دليل المعلومات الطبية</h3>
+<p>معلومات عربية منظمة حول سايتوتك والميزوبروستول وصحة المرأة، مع روابط للمصادر الصحية الرسمية.</p>
+<p><strong>السعودية</strong></p>
+</div>
+<div>
+<h3>روابط سريعة</h3>
+<ul class="footer-links">
+<li><a href="#top">الرئيسية</a></li>
+<li><a href="#overview">سايتوتك في السعودية</a></li>
+<li><a href="#nahdi">سايتوتك النهدي</a></li>
+<li><a href="#cities">سايتوتك في المدن</a></li>
+<li><a href="#faq">الأسئلة الشائعة</a></li>
+</ul>
+</div>
+<div>
+<h3>معلومات الموقع</h3>
+<ul class="footer-links">
+<li><a href="#about">من نحن</a></li>
+<li><a href="#privacy">سياسة الخصوصية</a></li>
+<li><a href="https://www.moh.gov.sa/" target="_blank" rel="noopener">وزارة الصحة السعودية</a></li>
+</ul>
+</div>
+<div>
+<h3>التواصل</h3>
+<p class="footer-contact"><strong>واتساب / جوال</strong></p>
+<p><a href="https://wa.me/966538159747" target="_blank" rel="noopener noreferrer">00966538159747</a></p>
+<p>للاستفسارات العامة يمكن التواصل عبر واتساب.</p>
+</div>
+</div>
+<div class="footer-bottom">
+<span>© 2026 دليل المعلومات الطبية — جميع الحقوق محفوظة</span>
+<span>آخر تحديث: أكتوبر 2026</span>
+</div>
 </div>
 </footer>
 </body>
