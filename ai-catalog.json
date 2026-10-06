@@ -1,0 +1,24 @@
+{
+  "name": "دليل المعلومات الطبية",
+  "description": "موقع عربي تثقيفي يقدم معلومات عامة عن Cytotec وMisoprostol والمعلومات الصحية المرتبطة بهما في السعودية.",
+  "url": "https://ksa-4ya.pages.dev/",
+  "language": "ar",
+  "pages": [
+    {
+      "title": "سايتوتك النهدي في السعودية",
+      "url": "https://ksa-4ya.pages.dev/#nahdi",
+      "type": "health-information"
+    },
+    {
+      "title": "سايتوتك في السعودية",
+      "url": "https://ksa-4ya.pages.dev/#overview",
+      "type": "health-information"
+    },
+    {
+      "title": "المعلومات الصحية والحمل",
+      "url": "https://ksa-4ya.pages.dev/#pregnancy",
+      "type": "health-information"
+    }
+  ],
+  "note": "المحتوى تثقيفي عام ولا يقدم جرعات أو بروتوكولات علاج أو تعليمات استعمال ذاتي."
+}
