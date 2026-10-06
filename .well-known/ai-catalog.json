@@ -1,0 +1,33 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "دليل المعلومات الطبية",
+    "identifier": "ksa-4ya.pages.dev",
+    "documentationUrl": "https://ksa-4ya.pages.dev/"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:ksa-4ya.pages.dev:health:medical-information",
+      "displayName": "دليل المعلومات الطبية",
+      "type": "application/ai-skill",
+      "url": "https://ksa-4ya.pages.dev/",
+      "description": "محتوى تثقيفي عام عن المعلومات الدوائية والصحية المرتبطة بـ Cytotec وMisoprostol في السعودية.",
+      "tags": [
+        "health",
+        "medical-information",
+        "Saudi-Arabia",
+        "Cytotec",
+        "Misoprostol"
+      ],
+      "capabilities": [
+        "MedicalInformation"
+      ],
+      "representativeQueries": [
+        "ما هو Cytotec وما هي مادة Misoprostol؟",
+        "أين أجد معلومات صحية عامة عن Cytotec في السعودية؟"
+      ],
+      "version": "1.0",
+      "updatedAt": "2026-10-06T20:30:00Z"
+    }
+  ]
+}
